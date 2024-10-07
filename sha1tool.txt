@@ -15,7 +15,7 @@ def hash_hmac(key, code, sha1):
 
 if __name__ == '__main__':
 	if len(sys.argv) == 1 or len(sys.argv) > 2:
-		print("Argument is missing, please append your BMC-MAC after this command.")
+		print("Argument is missing, Lütfen BMC mac adresinizi giriniz.")
 		print("Example: " + sys.argv[0] + " 0c:c4:7a:3e:2f:de")
 		exit()
 	mac = sys.argv[1].replace(":", "")
